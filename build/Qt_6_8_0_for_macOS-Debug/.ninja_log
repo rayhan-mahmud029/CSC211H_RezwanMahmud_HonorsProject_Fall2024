@@ -1,0 +1,18 @@
+# ninja log v6
+2	102	1733846885979006069	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs	920bc04fd78f0993
+106	138	1733846833532180905	CampusConnect_autogen/timestamp	b5a8bfd3d8a89fe0
+106	138	1733846833532180905	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/timestamp	b5a8bfd3d8a89fe0
+284	1404	1733845282678095334	CMakeFiles/CampusConnect.dir/CampusConnect_autogen/mocs_compilation.cpp.o	5d911b81b05debe3
+104	311	1733849478219132883	build.ninja	af29f450d28566f4
+183	999	1733846833609059507	CMakeFiles/CampusConnect.dir/signup.cpp.o	8e493c1d31445cbe
+183	1000	1733846833609148131	CMakeFiles/CampusConnect.dir/feed.cpp.o	d0a7a1c56623f137
+106	138	1733846833532180905	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/mocs_compilation.cpp	b5a8bfd3d8a89fe0
+183	955	1733846833609235422	CMakeFiles/CampusConnect.dir/map.cpp.o	6e5094e21d32e68d
+183	807	1733846833609411503	CMakeFiles/CampusConnect.dir/CampusConnect_autogen/EWIEGA46WW/qrc_resources.cpp.o	533fe7e24d791c86
+285	1428	1733845282678248540	CMakeFiles/CampusConnect.dir/main.cpp.o	2bc0d5a5209c0a7b
+138	183	1733846833607607106	CampusConnect_autogen/EWIEGA46WW/qrc_resources.cpp	ab42a02e35ca81e0
+138	183	1733846833607607106	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/qrc_resources.cpp	ab42a02e35ca81e0
+1355	1435	1733846834780950667	CampusConnect.app/Contents/MacOS/CampusConnect	20b6828490fca7df
+183	1355	1733846833608876551	CMakeFiles/CampusConnect.dir/mainwindow.cpp.o	b6221506d0a59b91
+106	138	1733846833532180905	CampusConnect_autogen/mocs_compilation.cpp	b5a8bfd3d8a89fe0
+183	994	1733846833609323212	CMakeFiles/CampusConnect.dir/events.cpp.o	410933b0b54204a1

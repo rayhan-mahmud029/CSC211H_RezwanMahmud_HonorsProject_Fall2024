@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/building.jpg</file>
+        <file>image/fd.png</file>
+        <file>image/c.png</file>
+        <file>image/pp.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>../../../Downloads/pngegg.png</file>
+        <file>image/c.png</file>
+    </qresource>
+</RCC>
