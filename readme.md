@@ -24,26 +24,6 @@ Future updates will include a live GPS map to track all users on campus and a ch
 
 ---
 
-## How to Use the App  
-
-### Download and Install Qt  
-
-1. Download the Qt Framework from [Qt's website](https://bit.ly/3osHUr8).  
-2. Install **version 5.15** with the **MSVC 2019 64-bit** configuration.  
-
-### Set Up the Project  
-
-1. Clone or download the repository.  
-2. Open the `CampusConnect.pro` file in Qt Creator.  
-3. Adjust any necessary directories in the source files, particularly for image and resource folders, by modifying the `directory.h` file.  
-
-### Run the Application  
-
-1. Build and run the project in Qt Creator.  
-2. Explore the feed, post requests, and interact with other students.  
-
----
-
 ## Challenges  
 
 1. **Learning the Qt Framework:**  
