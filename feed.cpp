@@ -26,3 +26,10 @@ void Feed::on_pushButton_4_clicked()
     events->show();
 }
 
+
+void Feed::on_pushButton_7_clicked()
+{
+    Request = new class Request(this);
+    Request->show();
+}
+

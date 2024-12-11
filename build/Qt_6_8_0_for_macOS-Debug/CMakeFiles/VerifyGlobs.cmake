@@ -46,6 +46,7 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_feed.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_map.cpp"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_request.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_signup.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/qrc_resources.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/mocs_compilation.cpp"
@@ -54,6 +55,7 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/main.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.cpp"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -77,12 +79,14 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_feed.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_mainwindow.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_map.h"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_request.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_signup.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/moc_predefs.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -188,6 +192,7 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.ui"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

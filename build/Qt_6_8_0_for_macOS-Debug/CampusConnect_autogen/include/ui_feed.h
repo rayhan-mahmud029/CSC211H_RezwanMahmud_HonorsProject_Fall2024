@@ -47,6 +47,7 @@ public:
     QPushButton *pushButton_6;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QPushButton *pushButton_7;
 
     void setupUi(QDialog *Feed)
     {
@@ -202,6 +203,19 @@ public:
         pushButton_4->setFont(font3);
         pushButton_4->setStyleSheet(QString::fromUtf8("color: red;\n"
 "font-weight: 500;"));
+        pushButton_7 = new QPushButton(Feed);
+        pushButton_7->setObjectName("pushButton_7");
+        pushButton_7->setGeometry(QRect(80, 510, 721, 41));
+        QFont font4;
+        font4.setBold(false);
+        font4.setUnderline(false);
+        font4.setStrikeOut(false);
+        pushButton_7->setFont(font4);
+        pushButton_7->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        pushButton_7->setMouseTracking(false);
+        pushButton_7->setStyleSheet(QString::fromUtf8("color : black;\n"
+"font-size: 15px;\n"
+"background-color: red;"));
 
         retranslateUi(Feed);
 
@@ -272,6 +286,7 @@ public:
         pushButton_6->setText(QCoreApplication::translate("Feed", "Chat with Mouad ", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Feed", "Live Map", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Feed", "Events", nullptr));
+        pushButton_7->setText(QCoreApplication::translate("Feed", "Request Food Delivery", nullptr));
     } // retranslateUi
 
 };

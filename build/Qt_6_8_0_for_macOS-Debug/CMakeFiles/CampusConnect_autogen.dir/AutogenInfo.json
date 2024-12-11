@@ -367,6 +367,12 @@
 			null
 		],
 		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h",
+			"MU",
+			"EWIEGA46WW/moc_request.cpp",
+			null
+		],
+		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.h",
 			"MU",
 			"EWIEGA46WW/moc_signup.cpp",
@@ -454,6 +460,11 @@
 		],
 		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.cpp",
 			"MU",
 			null
 		],

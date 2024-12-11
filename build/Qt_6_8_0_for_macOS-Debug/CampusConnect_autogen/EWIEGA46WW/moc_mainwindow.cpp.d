@@ -105,6 +105,7 @@
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
+  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QDeadlineTimer \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QHash \

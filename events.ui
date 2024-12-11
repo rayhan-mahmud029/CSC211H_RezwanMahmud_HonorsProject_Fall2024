@@ -61,7 +61,7 @@ font-weight: 500;</string>
 font-weight: 500;</string>
    </property>
    <property name="text">
-    <string>Events</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label">

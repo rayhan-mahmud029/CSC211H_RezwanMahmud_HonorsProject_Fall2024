@@ -115,6 +115,8 @@ CampusConnect_autogen/timestamp: \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.h \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.cpp \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.cpp \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/resources.qrc \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.cpp \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.h \
@@ -701,5 +703,6 @@ CampusConnect_autogen/timestamp: \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.ui \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.ui \
 	/Users/rezwanmahmud/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

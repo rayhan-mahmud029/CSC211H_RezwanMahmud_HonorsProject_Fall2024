@@ -1,0 +1,4 @@
+Store Name: dunkin
+Store Location: church street 
+DropOff Location: Main Building, LRC front desk
+----------------------

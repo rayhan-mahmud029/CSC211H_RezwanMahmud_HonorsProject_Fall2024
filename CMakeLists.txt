@@ -35,7 +35,7 @@ set(PROJECT_SOURCES
 
 # Set the application icon for macOS
 set(MACOSX_BUNDLE_ICON_FILE photosurface.icns)
-set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/resources/photosurface.icns")
+set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/image/p.icns")
 set_source_files_properties(${app_icon_macos} PROPERTIES
        MACOSX_PACKAGE_LOCATION "Resources")
 
@@ -45,6 +45,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(CampusConnect
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        request.h request.cpp request.ui
     )
     qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 

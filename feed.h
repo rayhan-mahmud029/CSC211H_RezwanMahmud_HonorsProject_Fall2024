@@ -4,7 +4,7 @@
 #include <QDialog>
 #include "map.h"
 #include "events.h"
-
+#include "request.h"
 namespace Ui {
 class Feed;
 }
@@ -22,9 +22,12 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_pushButton_7_clicked();
+
 private:
     Ui::Feed *ui;
     map *map;
     events *events;
+    Request *Request;
 };
 #endif // FEED_H

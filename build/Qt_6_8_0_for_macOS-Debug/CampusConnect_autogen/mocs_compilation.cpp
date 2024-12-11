@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_feed.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_map.cpp"
+#include "EWIEGA46WW/moc_request.cpp"
 #include "EWIEGA46WW/moc_signup.cpp"

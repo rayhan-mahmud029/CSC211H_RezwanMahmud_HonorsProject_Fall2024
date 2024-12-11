@@ -149,7 +149,7 @@ public:
     {
         events->setWindowTitle(QCoreApplication::translate("events", "Dialog", nullptr));
         pushButton_3->setText(QCoreApplication::translate("events", "Live Map", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("events", "Events", nullptr));
+        pushButton_4->setText(QString());
         label->setText(QCoreApplication::translate("events", "Events:", nullptr));
         label_2->setText(QCoreApplication::translate("events", "Campus Connect | Feed", nullptr));
         label_4->setText(QCoreApplication::translate("events", "Borough of Manhattan Community College", nullptr));
