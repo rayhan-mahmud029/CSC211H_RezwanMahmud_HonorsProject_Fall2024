@@ -2,7 +2,6 @@
 #define MAP_H
 
 #include <QDialog>
-#include "events.h"
 namespace Ui {
 class map;
 }
@@ -17,7 +16,6 @@ public:
 
 private:
     Ui::map *ui;
-    events *events;
 };
 
 #endif // MAP_H

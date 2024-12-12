@@ -8,5 +8,6 @@
     <qresource prefix="/">
         <file>../../../Downloads/pngegg.png</file>
         <file>image/c.png</file>
+        <file>requests_data.txt</file>
     </qresource>
 </RCC>

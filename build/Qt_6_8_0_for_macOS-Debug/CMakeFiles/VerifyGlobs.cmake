@@ -42,6 +42,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/*.cpp")
 set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_chatdialog.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_events.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_feed.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_mainwindow.cpp"
@@ -50,6 +51,8 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_signup.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/qrc_resources.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/mocs_compilation.cpp"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.cpp"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.cpp"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/main.cpp"
@@ -75,6 +78,7 @@ endif()
 # _directory_contents at /Users/rezwanmahmud/Qt/6.8.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/*.h")
 set(OLD_GLOB
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_chatdialog.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_events.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_feed.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_mainwindow.h"
@@ -82,6 +86,8 @@ set(OLD_GLOB
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_request.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include/ui_signup.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/moc_predefs.h"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.h"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.h"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.h"
@@ -188,6 +194,8 @@ endif()
 # _directory_contents at /Users/rezwanmahmud/Qt/6.8.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/*.ui")
 set(OLD_GLOB
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.ui"
+  "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.ui"
   "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.ui"

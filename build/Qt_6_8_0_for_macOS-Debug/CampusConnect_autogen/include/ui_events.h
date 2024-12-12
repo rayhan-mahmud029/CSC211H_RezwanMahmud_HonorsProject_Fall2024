@@ -23,7 +23,6 @@ class Ui_events
 {
 public:
     QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
     QLabel *label;
     QLabel *label_2;
     QLabel *label_4;
@@ -53,12 +52,6 @@ public:
         font.setWeight(QFont::Medium);
         pushButton_3->setFont(font);
         pushButton_3->setStyleSheet(QString::fromUtf8("color: red;\n"
-"font-weight: 500;"));
-        pushButton_4 = new QPushButton(events);
-        pushButton_4->setObjectName("pushButton_4");
-        pushButton_4->setGeometry(QRect(650, 10, 121, 41));
-        pushButton_4->setFont(font);
-        pushButton_4->setStyleSheet(QString::fromUtf8("color: red;\n"
 "font-weight: 500;"));
         label = new QLabel(events);
         label->setObjectName("label");
@@ -149,7 +142,6 @@ public:
     {
         events->setWindowTitle(QCoreApplication::translate("events", "Dialog", nullptr));
         pushButton_3->setText(QCoreApplication::translate("events", "Live Map", nullptr));
-        pushButton_4->setText(QString());
         label->setText(QCoreApplication::translate("events", "Events:", nullptr));
         label_2->setText(QCoreApplication::translate("events", "Campus Connect | Feed", nullptr));
         label_4->setText(QCoreApplication::translate("events", "Borough of Manhattan Community College", nullptr));

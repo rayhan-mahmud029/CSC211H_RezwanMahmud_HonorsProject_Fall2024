@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-794c46e1251139a621d8.json",
+					"jsonFile" : "directory-.-Debug-76336c3117b979b76524.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CampusConnect::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CampusConnect-Debug-6c05f0810d91900bafdf.json",
+					"jsonFile" : "target-CampusConnect-Debug-22033df204b0417a938c.json",
 					"name" : "CampusConnect",
 					"projectIndex" : 0
 				},

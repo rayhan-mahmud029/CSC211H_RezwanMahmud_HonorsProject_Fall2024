@@ -343,6 +343,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_chatdialog.cpp",
+			null
+		],
+		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h",
+			"MU",
+			"EWIEGA46WW/moc_event.cpp",
+			null
+		],
+		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h",
 			"MU",
 			"EWIEGA46WW/moc_events.cpp",
@@ -438,6 +450,16 @@
 	"SETTINGS_FILE" : "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CMakeFiles/CampusConnect_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.cpp",
 			"MU",

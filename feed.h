@@ -5,6 +5,7 @@
 #include "map.h"
 #include "events.h"
 #include "request.h"
+#include "chatdialog.h"
 namespace Ui {
 class Feed;
 }
@@ -24,10 +25,15 @@ private slots:
 
     void on_pushButton_7_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_pushButton_6_clicked();
+
 private:
     Ui::Feed *ui;
     map *map;
     events *events;
     Request *Request;
+    ChatDialog *chatDialog;
 };
 #endif // FEED_H

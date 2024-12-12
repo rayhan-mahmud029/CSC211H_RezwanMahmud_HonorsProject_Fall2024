@@ -1,0 +1,8 @@
+Store Name: Dunkin
+Store Location: church st
+DropOff Location: Main Building
+----------------------
+Store Name: dfsdf
+Store Location: sdfsf
+DropOff Location: sdf
+----------------------

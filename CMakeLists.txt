@@ -29,6 +29,7 @@ set(PROJECT_SOURCES
     resources.qrc
     map.h map.cpp map.ui
     events.h events.cpp events.ui
+    chatdialog.h chatdialog.cpp chatdialog.ui
 
     ${TS_FILES}
 )
@@ -46,6 +47,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         request.h request.cpp request.ui
+        event.h event.cpp event.ui
     )
     qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 

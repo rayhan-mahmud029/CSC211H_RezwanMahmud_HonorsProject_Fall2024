@@ -270,7 +270,7 @@ public:
                         "in-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Dropoff: Main Building, Infront of Panther Station</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Note: Order No: #9459, Item details</span></p></body></html>", nullptr));
         pushButton_5->setText(QCoreApplication::translate("Feed", "Chat with Tanvir", nullptr));
-        label_7->setText(QCoreApplication::translate("Feed", "Starbucks", nullptr));
+        label_7->setText(QCoreApplication::translate("Feed", "Chipotle", nullptr));
         textBrowser_4->setHtml(QCoreApplication::translate("Feed", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -278,12 +278,12 @@ public:
 "li.unchecked::marker { content: \"\\2610\"; }\n"
 "li.checked::marker { content: \"\\2612\"; }\n"
 "</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Name: Mouad Oulouali</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Name: Tamvir Siam </span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Pickup: 120 Church St, New York, NY 10007</span></p>\n"
-"<p style=\" margin-top:0px; margi"
-                        "n-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Dropoff: Fiterman, Cafetria</span></p>\n"
+"<p style=\" margin-top:0px; margin-"
+                        "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Dropoff: Fiterman, Cafetria</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Note: Order No: #9459, Item details</span></p></body></html>", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("Feed", "Chat with Mouad ", nullptr));
+        pushButton_6->setText(QCoreApplication::translate("Feed", "Chat with Tambir ", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Feed", "Live Map", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Feed", "Events", nullptr));
         pushButton_7->setText(QCoreApplication::translate("Feed", "Request Food Delivery", nullptr));

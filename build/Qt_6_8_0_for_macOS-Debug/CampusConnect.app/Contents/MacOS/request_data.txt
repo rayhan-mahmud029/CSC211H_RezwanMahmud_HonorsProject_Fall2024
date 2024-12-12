@@ -2,3 +2,23 @@ Store Name: Dunkin
 Store Location: church street 
 DropOff Location: main building, FL5, LRC front desk
 ----------------------
+Store Name: dunkin
+Store Location: church street
+DropOff Location: main building
+----------------------
+Store Name: fsfs
+Store Location: sfsfs
+DropOff Location: sfsd
+----------------------
+Store Name: sfsf
+Store Location: sdffdsf
+DropOff Location: sdfsfs
+----------------------
+Store Name: dlfksdjf
+Store Location: dsfds
+DropOff Location: sfsdf
+----------------------
+Store Name: sfdf
+Store Location: sdf
+DropOff Location: sfds
+----------------------

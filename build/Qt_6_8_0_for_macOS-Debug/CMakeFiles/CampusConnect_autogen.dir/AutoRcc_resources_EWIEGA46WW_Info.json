@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/include",
 	"INPUTS" : 
 	[
+		"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/requests_data.txt",
 		"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/image/c.png",
 		"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/image/pp.jpg",
 		"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/image/fd.png",

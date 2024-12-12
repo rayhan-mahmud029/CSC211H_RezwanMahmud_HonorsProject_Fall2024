@@ -4,6 +4,7 @@
 #include "request.h"
 #include "ui_request.h"
 #include <QFile>
+#include <QDir>
 #include <QTextStream>
 #include <QMessageBox>
 
@@ -36,17 +37,25 @@ void Request::on_pushButton_clicked()
 
 void Request::saveDataToFile(const QString &storeName, const QString &storeLocation, const QString &dropOffLocation)
 {
-    QFile file("requests_data.txt");
+    // Define the file path
+    QString filePath = "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/requests_data.txt";
+    QFile file(filePath);
+
     if (file.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text)) {
         QTextStream out(&file);
         out << "Store Name: " << storeName << "\n";
         out << "Store Location: " << storeLocation << "\n";
         out << "DropOff Location: " << dropOffLocation << "\n";
         out << "----------------------\n";
+
+        out.flush(); // Explicitly flush the stream
         file.close();
-        QMessageBox::information(this, "Success", "Data saved successfully.");
+
+        QMessageBox::information(this, "Success",
+                                 QString("Data saved successfully to:\n%1").arg(filePath));
     } else {
-        QMessageBox::critical(this, "Error", "Could not open file for writing.");
+        QMessageBox::critical(this, "Error",
+                              QString("Could not open file for writing:\n%1").arg(filePath));
     }
 }
 
