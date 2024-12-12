@@ -1,4 +1,4 @@
-/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_events.cpp: /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
+/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/EWIEGA46WW/moc_event.cpp: /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -99,8 +99,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
-  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \

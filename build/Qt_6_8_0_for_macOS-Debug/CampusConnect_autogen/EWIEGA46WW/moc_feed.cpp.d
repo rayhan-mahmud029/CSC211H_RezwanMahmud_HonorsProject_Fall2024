@@ -100,6 +100,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.h \
+  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h \

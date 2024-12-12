@@ -30,7 +30,7 @@ public:
         if (ChatDialog->objectName().isEmpty())
             ChatDialog->setObjectName("ChatDialog");
         ChatDialog->resize(400, 300);
-        ChatDialog->setStyleSheet(QString::fromUtf8("backgournd-color: black;"));
+        ChatDialog->setStyleSheet(QString::fromUtf8("background-color: black;"));
         chatArea = new QTextEdit(ChatDialog);
         chatArea->setObjectName("chatArea");
         chatArea->setGeometry(QRect(10, 10, 380, 200));

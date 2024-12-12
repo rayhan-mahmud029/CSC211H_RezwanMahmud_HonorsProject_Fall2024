@@ -14,7 +14,7 @@
    <string>Chat</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">backgournd-color: black;</string>
+   <string notr="true">background-color: black;</string>
   </property>
   <widget class="QTextEdit" name="chatArea">
    <property name="geometry">

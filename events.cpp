@@ -23,6 +23,7 @@ void events::on_pushButton_3_clicked()
 
 void events::on_pushButton_7_clicked()
 {
-
+    Event = new class Event(this);
+    Event->show();
 }
 

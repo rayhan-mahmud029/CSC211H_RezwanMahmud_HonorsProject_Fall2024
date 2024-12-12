@@ -36,6 +36,7 @@ public:
     QLabel *label_3;
     QTextBrowser *textBrowser;
     QPushButton *pushButton;
+    QPushButton *pushButton_7;
 
     void setupUi(QDialog *events)
     {
@@ -132,6 +133,19 @@ public:
         pushButton->setGeometry(QRect(90, 270, 141, 32));
         pushButton->setStyleSheet(QString::fromUtf8("background-color: red;\n"
 "color: black;"));
+        pushButton_7 = new QPushButton(events);
+        pushButton_7->setObjectName("pushButton_7");
+        pushButton_7->setGeometry(QRect(80, 510, 721, 41));
+        QFont font4;
+        font4.setBold(false);
+        font4.setUnderline(false);
+        font4.setStrikeOut(false);
+        pushButton_7->setFont(font4);
+        pushButton_7->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        pushButton_7->setMouseTracking(false);
+        pushButton_7->setStyleSheet(QString::fromUtf8("color : black;\n"
+"font-size: 15px;\n"
+"background-color: red;"));
 
         retranslateUi(events);
 
@@ -167,6 +181,7 @@ public:
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Place: Fiterman, F901</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Helvetica'; font-size:12pt; color:#000000;\">Detials: detials about event</span></p></body></html>", nullptr));
         pushButton->setText(QCoreApplication::translate("events", "Chat with Organizer ", nullptr));
+        pushButton_7->setText(QCoreApplication::translate("events", "Post Event Informaiton", nullptr));
     } // retranslateUi
 
 };

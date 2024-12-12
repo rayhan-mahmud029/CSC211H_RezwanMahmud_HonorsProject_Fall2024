@@ -108,6 +108,8 @@ CampusConnect_autogen/timestamp: \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug/CampusConnect_autogen/moc_predefs.h \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.cpp \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.h \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.cpp \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.cpp \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.cpp \
@@ -702,6 +704,7 @@ CampusConnect_autogen/timestamp: \
 	/Users/rezwanmahmud/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin.cmake \
 	/Users/rezwanmahmud/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.ui \
+	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.ui \
 	/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.ui \

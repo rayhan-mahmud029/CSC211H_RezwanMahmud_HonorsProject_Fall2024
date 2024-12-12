@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "map.h"
+#include "event.h"
 
 namespace Ui {
 class events;
@@ -19,9 +20,12 @@ public:
 private slots:
     void on_pushButton_3_clicked();
 
+    void on_pushButton_7_clicked();
+
 private:
     Ui::events *ui;
     map *map;
+    Event *Event;
 };
 
 #endif // EVENTS_H
