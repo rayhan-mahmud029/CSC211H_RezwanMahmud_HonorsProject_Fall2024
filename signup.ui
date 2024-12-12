@@ -100,6 +100,9 @@
      <height>30</height>
     </rect>
    </property>
+   <property name="text">
+    <string/>
+   </property>
    <property name="echoMode">
     <enum>QLineEdit::EchoMode::Password</enum>
    </property>

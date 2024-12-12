@@ -28,7 +28,7 @@ void MainWindow::on_pushButton_clicked()
     sqlitedb.setDatabaseName("/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/SQLiteDB/auth.db");
 
     QString username = ui->lineEdit->text();
-    QString password = ui->lineEdit_2->text();
+    QString password = ui->lineEdit_password->text();
 
     if (sqlitedb.open()) {
         QSqlQuery query(sqlitedb);

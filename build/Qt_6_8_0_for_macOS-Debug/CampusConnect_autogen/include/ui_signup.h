@@ -98,6 +98,7 @@ public:
         lineEdit_username->setText(QCoreApplication::translate("Signup", "re", nullptr));
         label_email->setText(QCoreApplication::translate("Signup", "Email:", nullptr));
         label_password->setText(QCoreApplication::translate("Signup", "Password:", nullptr));
+        lineEdit_password->setText(QString());
         pushButton_signup->setText(QCoreApplication::translate("Signup", "Sign Up", nullptr));
         label->setText(QCoreApplication::translate("Signup", "Welcome to", nullptr));
         label_2->setText(QCoreApplication::translate("Signup", "Campus Connect", nullptr));

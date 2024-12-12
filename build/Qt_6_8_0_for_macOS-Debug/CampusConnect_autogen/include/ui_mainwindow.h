@@ -31,10 +31,10 @@ public:
     QLabel *label_3;
     QLineEdit *lineEdit;
     QLabel *label_5;
-    QLineEdit *lineEdit_2;
     QPushButton *pushButton;
     QCommandLinkButton *commandLinkButton;
     QLabel *label_4;
+    QLineEdit *lineEdit_password;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -81,10 +81,6 @@ public:
         label_5->setObjectName("label_5");
         label_5->setGeometry(QRect(140, 300, 211, 41));
         label_5->setFont(font3);
-        lineEdit_2 = new QLineEdit(centralwidget);
-        lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(140, 340, 581, 51));
-        lineEdit_2->setFont(font3);
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(140, 400, 581, 41));
@@ -98,6 +94,10 @@ public:
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(290, 160, 351, 20));
+        lineEdit_password = new QLineEdit(centralwidget);
+        lineEdit_password->setObjectName("lineEdit_password");
+        lineEdit_password->setGeometry(QRect(140, 340, 581, 51));
+        lineEdit_password->setEchoMode(QLineEdit::EchoMode::Password);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -123,13 +123,10 @@ public:
 #endif // QT_CONFIG(tooltip)
         lineEdit->setText(QString());
         label_5->setText(QCoreApplication::translate("MainWindow", "Enter Password:", nullptr));
-#if QT_CONFIG(tooltip)
-        lineEdit_2->setToolTip(QString());
-#endif // QT_CONFIG(tooltip)
-        lineEdit_2->setText(QString());
         pushButton->setText(QCoreApplication::translate("MainWindow", "LogIn", nullptr));
         commandLinkButton->setText(QCoreApplication::translate("MainWindow", "Don't have an account? SignUp", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "Borough of Manhattan Community College", nullptr));
+        lineEdit_password->setText(QCoreApplication::translate("MainWindow", "fsdfsdf", nullptr));
     } // retranslateUi
 
 };

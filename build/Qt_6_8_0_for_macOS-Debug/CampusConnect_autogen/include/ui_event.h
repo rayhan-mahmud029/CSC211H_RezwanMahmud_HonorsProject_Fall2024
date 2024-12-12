@@ -35,6 +35,7 @@ public:
         if (Event->objectName().isEmpty())
             Event->setObjectName("Event");
         Event->resize(289, 374);
+        Event->setStyleSheet(QString::fromUtf8("background-color: balck;"));
         lineEdit_username = new QLineEdit(Event);
         lineEdit_username->setObjectName("lineEdit_username");
         lineEdit_username->setGeometry(QRect(10, 110, 251, 30));
@@ -58,7 +59,7 @@ public:
         label_password->setGeometry(QRect(10, 230, 131, 20));
         label = new QLabel(Event);
         label->setObjectName("label");
-        label->setGeometry(QRect(40, 10, 201, 81));
+        label->setGeometry(QRect(60, 10, 161, 81));
         QFont font;
         font.setFamilies({QString::fromUtf8("American Typewriter")});
         font.setPointSize(18);
@@ -85,8 +86,8 @@ public:
         lineEdit_email_2->setText(QString());
         pushButton->setText(QCoreApplication::translate("Event", "Submit", nullptr));
         label_email->setText(QCoreApplication::translate("Event", "Event Location:", nullptr));
-        label_password->setText(QCoreApplication::translate("Event", "Ecent Details:", nullptr));
-        label->setText(QCoreApplication::translate("Event", "Request Food PickUp", nullptr));
+        label_password->setText(QCoreApplication::translate("Event", "Event Details:", nullptr));
+        label->setText(QCoreApplication::translate("Event", "Event Information", nullptr));
         lineEdit_email->setText(QString());
         label_username->setText(QCoreApplication::translate("Event", "Event Name:", nullptr));
     } // retranslateUi
