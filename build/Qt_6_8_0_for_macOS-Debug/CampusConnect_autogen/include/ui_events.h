@@ -37,6 +37,7 @@ public:
     QTextBrowser *textBrowser;
     QPushButton *pushButton;
     QPushButton *pushButton_7;
+    QFrame *frame_9;
 
     void setupUi(QDialog *events)
     {
@@ -146,6 +147,13 @@ public:
         pushButton_7->setStyleSheet(QString::fromUtf8("color : black;\n"
 "font-size: 15px;\n"
 "background-color: red;"));
+        frame_9 = new QFrame(events);
+        frame_9->setObjectName("frame_9");
+        frame_9->setGeometry(QRect(800, 10, 80, 80));
+        frame_9->setStyleSheet(QString::fromUtf8("border: none;\n"
+"image: url(:/image/image/avatar.png);"));
+        frame_9->setFrameShape(QFrame::Shape::StyledPanel);
+        frame_9->setFrameShadow(QFrame::Shadow::Raised);
 
         retranslateUi(events);
 
@@ -154,7 +162,7 @@ public:
 
     void retranslateUi(QDialog *events)
     {
-        events->setWindowTitle(QCoreApplication::translate("events", "Dialog", nullptr));
+        events->setWindowTitle(QCoreApplication::translate("events", "Campus Connect | Feed", nullptr));
         pushButton_3->setText(QCoreApplication::translate("events", "Live Map", nullptr));
         label->setText(QCoreApplication::translate("events", "Events:", nullptr));
         label_2->setText(QCoreApplication::translate("events", "Campus Connect | Feed", nullptr));

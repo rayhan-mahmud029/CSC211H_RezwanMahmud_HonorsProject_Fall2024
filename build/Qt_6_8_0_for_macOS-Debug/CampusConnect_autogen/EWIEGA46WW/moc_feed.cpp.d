@@ -102,6 +102,7 @@
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/chatdialog.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
+  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/leaderboard.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -249,7 +250,10 @@
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

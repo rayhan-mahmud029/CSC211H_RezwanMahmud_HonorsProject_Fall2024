@@ -178,7 +178,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>fsdfsdf</string>
+     <string/>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>

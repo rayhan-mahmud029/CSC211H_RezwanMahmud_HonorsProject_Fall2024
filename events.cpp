@@ -12,7 +12,6 @@ events::~events()
 {
     delete ui;
 }
-
 void events::on_pushButton_3_clicked()
 {
     hide();

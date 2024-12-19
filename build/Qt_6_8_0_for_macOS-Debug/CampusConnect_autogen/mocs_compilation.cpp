@@ -3,6 +3,7 @@
 #include "EWIEGA46WW/moc_event.cpp"
 #include "EWIEGA46WW/moc_events.cpp"
 #include "EWIEGA46WW/moc_feed.cpp"
+#include "EWIEGA46WW/moc_leaderboard.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_map.cpp"
 #include "EWIEGA46WW/moc_request.cpp"

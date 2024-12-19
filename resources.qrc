@@ -4,6 +4,8 @@
         <file>image/fd.png</file>
         <file>image/c.png</file>
         <file>image/pp.jpg</file>
+        <file>image/map.png</file>
+        <file>image/avatar.png</file>
     </qresource>
     <qresource prefix="/">
         <file>../../../Downloads/pngegg.png</file>

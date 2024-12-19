@@ -114,7 +114,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Campus Connect | Login", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Welcome to", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Campus Connect", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Enter BMCC Email:", nullptr));
@@ -126,7 +126,7 @@ public:
         pushButton->setText(QCoreApplication::translate("MainWindow", "LogIn", nullptr));
         commandLinkButton->setText(QCoreApplication::translate("MainWindow", "Don't have an account? SignUp", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "Borough of Manhattan Community College", nullptr));
-        lineEdit_password->setText(QCoreApplication::translate("MainWindow", "fsdfsdf", nullptr));
+        lineEdit_password->setText(QString());
     } // retranslateUi
 
 };

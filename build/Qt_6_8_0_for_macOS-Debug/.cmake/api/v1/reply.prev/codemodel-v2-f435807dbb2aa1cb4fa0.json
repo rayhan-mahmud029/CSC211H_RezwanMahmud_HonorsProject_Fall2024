@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-88e3376f9efd74c955a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CampusConnect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusConnect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusConnect-Debug-89514f0340a203bbabb2.json",
+					"name" : "CampusConnect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusConnect_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusConnect_autogen-Debug-3892f23f29608cbcb1db.json",
+					"name" : "CampusConnect_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusConnect_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusConnect_autogen_timestamp_deps-Debug-39c46918a8e0e116df87.json",
+					"name" : "CampusConnect_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/build/Qt_6_8_0_for_macOS-Debug",
+		"source" : "/Users/rezwanmahmud/Documents/QtApplications/CampusConnect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

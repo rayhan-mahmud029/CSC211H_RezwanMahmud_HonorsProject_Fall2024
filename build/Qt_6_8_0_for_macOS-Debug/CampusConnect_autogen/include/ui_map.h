@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 
@@ -23,6 +24,8 @@ public:
     QPushButton *pushButton_4;
     QLabel *label_2;
     QLabel *label_4;
+    QFrame *frame;
+    QFrame *frame_9;
 
     void setupUi(QDialog *map)
     {
@@ -42,7 +45,7 @@ public:
 "font-weight: 500;"));
         label_2 = new QLabel(map);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(20, 10, 381, 41));
+        label_2->setGeometry(QRect(20, 10, 451, 41));
         QFont font1;
         font1.setFamilies({QString::fromUtf8("Baloo Bhaijaan")});
         font1.setPointSize(34);
@@ -53,6 +56,20 @@ public:
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(20, 50, 351, 20));
         label_4->setStyleSheet(QString::fromUtf8("color: gray;"));
+        frame = new QFrame(map);
+        frame->setObjectName("frame");
+        frame->setGeometry(QRect(50, 130, 791, 381));
+        frame->setStyleSheet(QString::fromUtf8("image: url(:/image/image/map.png);\n"
+"border: none;"));
+        frame->setFrameShape(QFrame::Shape::StyledPanel);
+        frame->setFrameShadow(QFrame::Shadow::Raised);
+        frame_9 = new QFrame(map);
+        frame_9->setObjectName("frame_9");
+        frame_9->setGeometry(QRect(810, 10, 80, 80));
+        frame_9->setStyleSheet(QString::fromUtf8("border: none;\n"
+"image: url(:/image/image/avatar.png);"));
+        frame_9->setFrameShape(QFrame::Shape::StyledPanel);
+        frame_9->setFrameShadow(QFrame::Shadow::Raised);
 
         retranslateUi(map);
 
@@ -61,9 +78,9 @@ public:
 
     void retranslateUi(QDialog *map)
     {
-        map->setWindowTitle(QCoreApplication::translate("map", "Dialog", nullptr));
+        map->setWindowTitle(QCoreApplication::translate("map", "Campus Connect | Feed", nullptr));
         pushButton_4->setText(QCoreApplication::translate("map", "Events", nullptr));
-        label_2->setText(QCoreApplication::translate("map", "Campus Connect | Feed", nullptr));
+        label_2->setText(QCoreApplication::translate("map", "Campus Connect | Live Map", nullptr));
         label_4->setText(QCoreApplication::translate("map", "Borough of Manhattan Community College", nullptr));
     } // retranslateUi
 

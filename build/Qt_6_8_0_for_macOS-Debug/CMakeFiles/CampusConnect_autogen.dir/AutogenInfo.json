@@ -367,6 +367,12 @@
 			null
 		],
 		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/leaderboard.h",
+			"MU",
+			"EWIEGA46WW/moc_leaderboard.cpp",
+			null
+		],
+		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -467,6 +473,11 @@
 		],
 		[
 			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/rezwanmahmud/Documents/QtApplications/CampusConnect/leaderboard.cpp",
 			"MU",
 			null
 		],

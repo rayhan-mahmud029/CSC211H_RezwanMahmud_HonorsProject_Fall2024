@@ -106,6 +106,7 @@
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/event.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/events.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/feed.h \
+  /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/leaderboard.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/map.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/request.h \
   /Users/rezwanmahmud/Documents/QtApplications/CampusConnect/signup.h \
@@ -430,6 +431,7 @@
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtSql.framework/Versions/A/Headers/qtsqlversion.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
@@ -437,9 +439,11 @@
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qcombobox.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlistview.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/rezwanmahmud/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \

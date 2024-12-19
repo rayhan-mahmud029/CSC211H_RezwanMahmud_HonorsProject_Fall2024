@@ -1,8 +1,5 @@
 #include "request.h"
 #include "ui_request.h"
-// request.cpp
-#include "request.h"
-#include "ui_request.h"
 #include <QFile>
 #include <QDir>
 #include <QTextStream>

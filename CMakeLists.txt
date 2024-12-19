@@ -30,6 +30,7 @@ set(PROJECT_SOURCES
     map.h map.cpp map.ui
     events.h events.cpp events.ui
     chatdialog.h chatdialog.cpp chatdialog.ui
+    leaderboard.h leaderboard.cpp leaderboard.ui
 
     ${TS_FILES}
 )
@@ -78,7 +79,7 @@ set_target_properties(CampusConnect PROPERTIES
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
-    WIN32_EXECUTABLE TRUE
+
 )
 
 # Install target

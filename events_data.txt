@@ -1,0 +1,12 @@
+Event Name: BSA Cultural Night
+Event Location: MAin Building(S242)
+Event Details: Event dertails
+----------------------
+Event Name: Test event
+Event Location: test
+Event Details: test
+----------------------
+Event Name: test2
+Event Location: test2
+Event Details: test2
+----------------------

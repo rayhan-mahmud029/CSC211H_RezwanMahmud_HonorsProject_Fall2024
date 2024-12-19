@@ -6,3 +6,15 @@ Store Name: balh balh
 Store Location: balh blah balhskfklsdl
 DropOff Location: dsjhfsdhf
 ----------------------
+Store Name: hrieh
+Store Location: ffds
+DropOff Location: dsfds
+----------------------
+Store Name: bksfh
+Store Location: dskbjkfsb
+DropOff Location: jsdfs
+----------------------
+Store Name: bshf
+Store Location: dfhsdf
+DropOff Location: dsfhs
+----------------------
