@@ -3,6 +3,8 @@
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QMessageBox>
+#include <QRegularExpression>
+#include <QRegularExpressionMatch>
 
 Signup::Signup(QWidget *parent) :
     QDialog(parent),
@@ -18,13 +20,21 @@ Signup::~Signup()
 
 void Signup::on_pushButton_signup_clicked()
 {
-    QString username = ui->lineEdit_username->text();
-    QString email = ui->lineEdit_email->text();
+    QString username = ui->lineEdit_email->text();
     QString password = ui->lineEdit_password->text();
 
     // Check if the fields are empty
-    if (username.isEmpty() || email.isEmpty() || password.isEmpty()) {
+    if (username.isEmpty() || password.isEmpty()) {
         QMessageBox::warning(this, "Incomplete Data", "Please fill all fields!");
+        return;
+    }
+
+    //check for valid BMCC email(contains .stu.bmcc.cuny.edu)
+    QRegularExpression emailRegex("^[a-zA-Z0-9._%+-]+@stu\\.bmcc\\.cuny\\.edu$");
+    QRegularExpressionMatch match = emailRegex.match(username);
+
+    if (!match.hasMatch()) {
+        QMessageBox::warning(this, "Invalid Email", "Please enter a valid BMCC email (e.g., yourname@xxx.stu.bmcc.cuny.edu).");
         return;
     }
 
@@ -34,11 +44,8 @@ void Signup::on_pushButton_signup_clicked()
 
     if (sqlitedb.open()) {
         QSqlQuery query(sqlitedb);
-
-        // Insert the new user into the database
-        query.prepare("INSERT INTO authDetails (username, email, password) VALUES (:username, :email, :password)");
+        query.prepare("INSERT INTO authDetails (username, password) VALUES (:username, :password)");
         query.bindValue(":username", username);
-        query.bindValue(":email", email);
         query.bindValue(":password", password);
 
         if (query.exec()) {
